@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "aaa",
+      "email": "a@g.ci",
+      "country": "r"
+    },
+    {
+      "id": 2,
+      "name": "aaa",
+      "email": "a@gmail.com",
+      "country": "r"
+    },
+    {
+      "id": 3,
+      "name": "acc",
+      "email": "a@g.com",
+      "country": "f"
+    },
+    {
+      "id": 4,
+      "name": "sd,djb.K",
+      "email": "HAMDI1@HKL.COM",
+      "country": "KDSJCHSKJH"
+    }
+  ]
+}

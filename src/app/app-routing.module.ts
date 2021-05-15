@@ -11,6 +11,30 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'navbar',
+    loadChildren: () => import('./navbar/navbar.module').then( m => m.NavbarPageModule)
+  },
+  {
+    path: 'footer',
+    loadChildren: () => import('./footer/footer.module').then( m => m.FooterPageModule)
+  },
+  {
+    path: 'about',
+    loadChildren: () => import('./about/about.module').then( m => m.AboutPageModule)
+  },
+  {
+    path: 'students',
+    loadChildren: () => import('./students/students.module').then( m => m.StudentsPageModule)
+  },
+  {
+    path: 'add',
+    loadChildren: () => import('./add/add.module').then( m => m.AddPageModule)
+  },
+  {
+    path: 'update-student/:id',
+    loadChildren: () => import('./update-student/update-student.module').then( m => m.UpdateStudentPageModule)
+  },
 ];
 
 @NgModule({
